@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sub-101",
+    "code": "IT 201",
+    "title": "Web Systems and Technologies",
+    "faculty": "Prof. Maria Santos",
+    "section": "BSIT 2A",
+    "semester": "1st Semester, AY 2026–2027",
+    "units": 3
+  },
+  {
+    "id": "sub-102",
+    "code": "IT 202",
+    "title": "Database Management Systems",
+    "faculty": "Mr. John Reyes",
+    "section": "BSIT 2A",
+    "semester": "1st Semester, AY 2026–2027",
+    "units": 3
+  },
+  {
+    "id": "sub-103",
+    "code": "IT 203",
+    "title": "Networking Fundamentals",
+    "faculty": "Engr. Angela Cruz",
+    "section": "BSIT 2A",
+    "semester": "1st Semester, AY 2026–2027",
+    "units": 3
+  },
+  {
+    "id": "sub-104",
+    "code": "GEC 5",
+    "title": "Purposive Communication",
+    "faculty": "Dr. Roberto Dela Peña",
+    "section": "BSIT 2A",
+    "semester": "1st Semester, AY 2026–2027",
+    "units": 3
+  }
+]

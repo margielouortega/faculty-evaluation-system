@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: beu-heu-faculty-evaluation-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: starter
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+      - key: ALLOW_VERCEL_PREVIEWS
+        value: "true"
+    disk:
+      name: faculty-evaluation-json-data
+      mountPath: /var/data
+      sizeGB: 1
